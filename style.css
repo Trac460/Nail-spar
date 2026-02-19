@@ -1,0 +1,55 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  background: linear-gradient(to right, #ffe4e1, #fff0f5);
+  color: #333;
+}
+
+.navbar {
+  background: #e91e63;
+  color: white;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navbar a:hover, .navbar a.active {
+  text-decoration: underline;
+}
+
+h2, h1 {
+  text-align: center;
+  color: #e91e63;
+}
+
+form {
+  max-width: 400px;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+}
+
+form input, form select, form button, form textarea {
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+form button {
+  background: #e91e63;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+form button:hover {
+  background
