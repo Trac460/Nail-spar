@@ -175,13 +175,13 @@
 
 <!-- Hero Section -->
 <section class="hero-section">
-  <h1>✨hello Relax. Refresh. Renew. ✨</h1>
+  <h1>Relax. Refresh. Renew. </h1>
   <p>Experience luxury nail care at Polished Perfection</p>
   <?php if (isset($_SESSION['user_id'])) { ?>
-    <a href="booking.php" class="hero-btn">📅 Book Your Appointment</a>
+    <a href="booking.php" class="hero-btn">Book Your Appointment</a>
   <?php } else { ?>
-    <a href="signup.php" class="hero-btn">👤 Sign Up Now</a>
-    <a href="login.php" class="hero-btn">🔑 Login</a>
+    <a href="signup.php" class="hero-btn">Sign Up Now</a>
+    <a href="login.php" class="hero-btn"> Login</a>
   <?php } ?>
 </section>
 
@@ -192,7 +192,7 @@
   
   <div class="services-grid">
     <div class="service-card">
-      <h3>💅 Classic Manicure</h3>
+      <h3>Classic Manicure</h3>
       <p class="price">$25</p>
       <p>Professional trim, shape, file, and polish. Perfect for maintaining beautiful nails.</p>
       <?php if (isset($_SESSION['user_id'])) { ?>
@@ -203,8 +203,8 @@
     </div>
 
     <div class="service-card">
-      <h3>✨ Gel Manicure</h3>
-      <p class="price">$45</p>
+      <h3>Gel Manicure</h3>
+      <p class="price">Ksh.1000</p>
       <p>Long-lasting gel polish that stays perfect for weeks. UV cured for durability.</p>
       <?php if (isset($_SESSION['user_id'])) { ?>
         <a href="booking.php" class="hero-btn" style="display: inline-block; padding: 10px 20px; font-size: 0.95em;">Book Now</a>
@@ -214,8 +214,8 @@
     </div>
 
     <div class="service-card">
-      <h3>👣 Luxury Pedicure</h3>
-      <p class="price">$50</p>
+      <h3>Luxury Pedicure</h3>
+      <p class="price">ksh.1000</p>
       <p>Relaxing foot soak, exfoliation, massage, and polish. Pure pampering for your feet.</p>
       <?php if (isset($_SESSION['user_id'])) { ?>
         <a href="booking.php" class="hero-btn" style="display: inline-block; padding: 10px 20px; font-size: 0.95em;">Book Now</a>
@@ -225,8 +225,8 @@
     </div>
 
     <div class="service-card">
-      <h3>🎨 Nail Art</h3>
-      <p class="price">$35-$60</p>
+      <h3>Nail Art</h3>
+      <p class="price">Ksh.100 per art</p>
       <p>Creative custom designs from subtle to bold. Express your personality with unique nail art.</p>
       <?php if (isset($_SESSION['user_id'])) { ?>
         <a href="booking.php" class="hero-btn" style="display: inline-block; padding: 10px 20px; font-size: 0.95em;">Book Now</a>
@@ -236,8 +236,8 @@
     </div>
 
     <div class="service-card">
-      <h3>🌟 Spa Package</h3>
-      <p class="price">$120</p>
+      <h3>Spa Package</h3>
+      <p class="price">Ksh.2500-Ksh.8000</p>
       <p>Complete pampering experience with manicure, pedicure, scrubs, and massage.</p>
       <?php if (isset($_SESSION['user_id'])) { ?>
         <a href="booking.php" class="hero-btn" style="display: inline-block; padding: 10px 20px; font-size: 0.95em;">Book Now</a>
@@ -278,10 +278,10 @@
   <h2>Ready to Be Pampered?</h2>
   <p>Book your appointment today and experience the difference!</p>
   <?php if (isset($_SESSION['user_id'])) { ?>
-    <a href="booking.php" class="hero-btn">📅 Book Appointment</a>
+    <a href="booking.php" class="hero-btn">Book Appointment</a>
   <?php } else { ?>
-    <a href="signup.php" class="hero-btn">👤 Create Account</a>
-    <a href="login.php" class="hero-btn">🔑 Login</a>
+    <a href="signup.php" class="hero-btn">Create Account</a>
+    <a href="login.php" class="hero-btn"> Login</a>
   <?php } ?>
 </section>
 
@@ -289,8 +289,8 @@
 <footer>
   <div class="footer-content">
     <p>&copy; <?php echo date('Y'); ?> Polished Perfection Nail Spa | All Rights Reserved</p>
-    <p>📍 123 Beauty Lane, Nail City, NY 10001 | 📞 (555) 123-4567</p>
-    <p>Designed with 💖 | Beauty & Wellness</p>
+    <p>123 Beauty Lane, Nail City, NY 10001 |  (555) 123-4567</p>
+    <p>Designed with | Beauty & Wellness</p>
   </div>
 </footer>
 

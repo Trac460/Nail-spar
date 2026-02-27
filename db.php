@@ -101,6 +101,6 @@ function prepare($sql) {
 }
 
 // Test connection - shows success message
-echo "<h2 style='color:green; text-align:center; margin-top:50px;'>✅ Database Connected Successfully!</h2>";
+echo "<h2 style='color:green; text-align:center; margin-top:50px;'> Database Connected Successfully!</h2>";
 echo "<p style='text-align:center;'>Host: $host | Database: $dbname</p>";
 ?>

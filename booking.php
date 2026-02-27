@@ -64,7 +64,7 @@
 </head>
 <body>
   <div class="booking-container">
-    <h2>📅 Book a Service</h2>
+    <h2>Book a Service</h2>
 
     <?php
     if (!isset($_SESSION['user_id'])) {

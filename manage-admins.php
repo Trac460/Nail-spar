@@ -145,7 +145,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
 <div class="manage-container">
   <div class="manage-header">
-    <h2>👑 Manage Admin Roles</h2>
+    <h2> Manage Admin Roles</h2>
     <p>Promote or demote users to admin status</p>
   </div>
 
@@ -169,7 +169,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     while ($row = $result->fetch(PDO::FETCH_ASSOC)) {
       $has_users = true;
       $is_admin = $row['is_admin'] ? true : false;
-      $role_label = $is_admin ? '<span class="admin-check">👑 Admin</span>' : '<span class="user-check">👤 User</span>';
+      $role_label = $is_admin ? '<span class="admin-check">Admin</span>' : '<span class="user-check">👤 User</span>';
       
       echo "<tr>";
       echo "<td>" . htmlspecialchars($row['id']) . "</td>";

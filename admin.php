@@ -1,4 +1,4 @@
-<?php include("db.php"); session_start(); ?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -157,7 +157,7 @@ try {
 
 <div class="admin-container">
   <div class="admin-header">
-    <h2>👑 Admin Dashboard</h2>
+    <h2>Admin Dashboard</h2>
     <div class="admin-nav">
       <a href="index.php">Home</a>
       <?php if ($is_admin) { ?>
@@ -183,7 +183,7 @@ try {
     </div>
 
     <div class="dashboard-card">
-      <h3>📅 Total Bookings</h3>
+      <h3>Total Bookings</h3>
       <?php
       try {
         $result = $conn->query("SELECT COUNT(*) as total FROM bookings");
@@ -196,7 +196,7 @@ try {
     </div>
 
     <div class="dashboard-card">
-      <h3>💬 Contact Messages</h3>
+      <h3> Contact Messages</h3>
       <?php
       try {
         $result = $conn->query("SELECT COUNT(*) as total FROM contacts");
@@ -210,7 +210,7 @@ try {
   </div>
 
   <!-- Recent Bookings -->
-  <h3 style="color:#800040; margin-top:30px;">📋 Recent Bookings</h3>
+  <h3 style="color:#800040; margin-top:30px;">Recent Bookings</h3>
   <?php
   try {
     $sql = "SELECT b.id, u.name, b.service_id, b.booking_date, b.booking_time, b.status 

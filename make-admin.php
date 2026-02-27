@@ -67,7 +67,7 @@
 <body>
 
 <div class="setup-container">
-  <h2>👑 Promote User to Admin</h2>
+  <h2>Promote User to Admin</h2>
   <p>Enter your credentials to promote a user to admin status</p>
 
   <?php
@@ -77,7 +77,7 @@
     $target_email = trim($_POST['target_email']);
     
     if (empty($email) || empty($password) || empty($target_email)) {
-      echo "<div class='message error'>❌ Please fill in all fields</div>";
+      echo "<div class='message error'> Please fill in all fields</div>";
     } else {
       try {
         // First verify the user's credentials
